@@ -9,6 +9,9 @@ module.exports = (grunt)->
       main:
         files:
           'build/js/amazon.js': ['src/amazon.coffee']
+          'build/js/twimg.js': ['src/twimg.coffee']
+        options:
+          bare: true
 
     grunt.loadNpmTasks 'grunt-contrib-coffee'
     grunt.loadNpmTasks 'grunt-cson'

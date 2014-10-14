@@ -7,8 +7,15 @@ content_scripts: [
     matches: [
       'http://amazon.co.jp/*'
       'http://www.amazon.co.jp/*'
-    ],
+    ]
     js: ['js/amazon.js']
+  }
+  {
+    matches: [
+      'https://pbs.twimg.com/*'
+    ]
+    run_at: 'document_end'
+    js: ['js/twimg.js']
   }
 ]
 permissions: [

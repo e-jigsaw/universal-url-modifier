@@ -19,7 +19,3 @@ content_scripts: [
     js: ['js/twimg.js']
   }
 ]
-permissions: [
-  'http://amazon.co.jp/*'
-  'http://www.amazon.co.jp/*'
-]

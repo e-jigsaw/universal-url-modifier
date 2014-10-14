@@ -2,10 +2,11 @@
   "name": "universal-url-modifier",
   "version": "0.0.0",
   "description": "universal url modifier",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "jigsaw (http://jgs.me)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-cson": "^0.10.0"
+  }
 }

@@ -1,0 +1,17 @@
+manifest_version: 2
+name: 'universal-url-modifier'
+description: 'Modify URL when you access anything you want web pages'
+version: '0.0.1'
+content_scripts: [
+  {
+    matches: [
+      'http://amazon.co.jp/*'
+      'http://www.amazon.co.jp/*'
+    ],
+    js: ['js/amazon.js']
+  }
+]
+permissions: [
+  'http://amazon.co.jp/*'
+  'http://www.amazon.co.jp/*'
+]

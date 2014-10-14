@@ -8,6 +8,7 @@ content_scripts: [
       'http://amazon.co.jp/*'
       'http://www.amazon.co.jp/*'
     ]
+    run_at: 'document_end'
     js: ['js/amazon.js']
   }
   {

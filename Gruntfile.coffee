@@ -10,6 +10,7 @@ module.exports = (grunt)->
         files:
           'build/js/amazon.js': ['src/amazon.coffee']
           'build/js/twimg.js': ['src/twimg.coffee']
+          'build/js/zidory.js': ['src/zidory.coffee']
         options:
           bare: true
 

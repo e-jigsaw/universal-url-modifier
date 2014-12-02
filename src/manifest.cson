@@ -18,4 +18,11 @@ content_scripts: [
     run_at: 'document_end'
     js: ['js/twimg.js']
   }
+  {
+    matches: [
+      'http://zidory.me/*'
+    ]
+    run_at: 'document_end'
+    js: ['js/zidory.js']
+  }
 ]

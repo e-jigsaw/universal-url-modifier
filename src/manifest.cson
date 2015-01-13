@@ -9,20 +9,20 @@ content_scripts: [
       'http://www.amazon.co.jp/*'
     ]
     run_at: 'document_end'
-    js: ['js/amazon.js']
+    js: ['amazon.js']
   }
   {
     matches: [
       'https://pbs.twimg.com/*'
     ]
     run_at: 'document_end'
-    js: ['js/twimg.js']
+    js: ['twimg.js']
   }
   {
     matches: [
       'http://zidory.me/*'
     ]
     run_at: 'document_end'
-    js: ['js/zidory.js']
+    js: ['zidory.js']
   }
 ]

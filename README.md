@@ -35,6 +35,7 @@ https://pbs.twimg.com/media/BzaYOTaCAAAQbTv.jpg:large
 % git clone https://github.com/e-jigsaw/universal-url-modifier.git
 % cd universal-url-modifier
 % npm install
+% npm run build
 
 # then load `build/` as unpackaged extension on Google Chrome
 ```

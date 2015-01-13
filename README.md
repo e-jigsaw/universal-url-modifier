@@ -28,7 +28,6 @@ https://pbs.twimg.com/media/BzaYOTaCAAAQbTv.jpg:large
 # Requirements
 
 * Node.js (latest recommend, tested v0.10.32)
-* Grunt cli (`% npm install -g grunt-cli`)
 
 # Installation
 
@@ -36,7 +35,6 @@ https://pbs.twimg.com/media/BzaYOTaCAAAQbTv.jpg:large
 % git clone https://github.com/e-jigsaw/universal-url-modifier.git
 % cd universal-url-modifier
 % npm install
-% grunt
 
 # then load `build/` as unpackaged extension on Google Chrome
 ```

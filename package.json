@@ -6,7 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "livescript": "^1.4.0",
-    "lson-cli": "0.0.5"
+    "lson-cli": "0.0.6"
   },
   "scripts": {
     "build": "lsc -cbo build src/*.ls && lson -o build src/*.lson"

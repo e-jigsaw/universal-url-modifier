@@ -22,12 +22,12 @@ http://amazon.co.jp/dp/4832244140
 ```
 https://pbs.twimg.com/media/BzaYOTaCAAAQbTv.jpg
 ↓
-https://pbs.twimg.com/media/BzaYOTaCAAAQbTv.jpg:large
+https://pbs.twimg.com/media/BzaYOTaCAAAQbTv.jpg:orig
 ```
 
 # Requirements
 
-* Node.js (latest recommend, tested v0.10.32)
+* Node.js (latest recommend, tested v6.2.2)
 
 # Installation
 
